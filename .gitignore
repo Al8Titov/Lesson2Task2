@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Папка с зависимостями
+node_modules/
+
+# Секретные файлы конфигурации
+.env
+
+# Временные файлы и папки
+.DS_Store
+dist/
+build/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
